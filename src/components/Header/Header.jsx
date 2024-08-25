@@ -6,7 +6,7 @@ function Header({ showingSection, setShowingSection }) {
 		<div className="headerContainer">
 			<div className="headerContent">
 				<Reveal slide delay={0.1}>
-					<h1>Logo</h1>
+					<img src='favicon.png' alt="" />
 				</Reveal>
 
 				<ul>
