@@ -1,0 +1,31 @@
+.dark-theme {
+    /* GENERAL */
+    /* --highlights-txtColor: #936767; */
+    --highlights-txtColor: #6bb188;
+
+    /* HEADER */
+    --header-bgColor: #121212;
+    --header-textColor: #fff;
+    --header-hoverTextColor: #fff;
+    --header-activeTextColor: #fff;
+
+    /* CONTENT */
+    --content-bgColor: #222224;
+    --content-textColor: #fff;
+}
+
+.white-theme {
+    /* GENERAL */
+    /* --highlights-txtColor: #936767; */
+    --highlights-txtColor: #2d93e6;
+
+    /* HEADER */
+    --header-bgColor: #fff;
+    --header-textColor: #000;
+    --header-hoverTextColor: #000;
+    --header-activeTextColor: #000;
+
+    /* CONTENT */
+    --content-bgColor: #fff;
+    --content-textColor: #000;
+}

@@ -1,0 +1,95 @@
+.abouteducation__container {
+    width: 100%;
+    padding: 0 100px;
+    max-width: 1920px;
+
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.abouteducation__container h2:not(.abouteducationcard__container h2) {
+    color: var(--highlights-txtColor);
+}
+
+.abouteducation__years {
+    gap: 20px;
+}
+
+.abouteducation__years > div {
+    flex-grow: 1;
+}
+
+.abouteducation__header {
+    justify-content: space-between;
+}
+
+.abouteducation__yearSelector {
+    gap: 30px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 0 40px;
+    align-self: center;
+    border-radius: 30px;
+    border: 1px solid #4b4141;
+}
+
+.abouteducation__yearSelector li {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #645d5d;
+}
+
+.abouteducation__yearSelector li:hover {
+    cursor: pointer;
+}
+
+.abouteducation__yearSelector p {
+    color: #4b4141;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.abouteducation__yearSelector .active {
+    color: #ffffff
+}
+
+
+
+@media (max-width: 1700px) {
+    .abouteducation__years {
+        flex-direction: column;
+    }
+
+    .abouteducation__container {
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .abouteducation__container h2 {
+        display: none;
+    }
+
+    .abouteducation__header {
+        gap: 20px;
+        width: fit-content;
+        flex-direction: column;
+
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 1000px) {
+    .abouteducation__container h1 {
+        text-align: center;
+    }
+    
+    .abouteducation__header {
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+.abouteducationcard__container {
+    flex: 1;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #4b4141;
+
+    justify-content: space-between;
+}
+
+.abouteducationcard__container h4 {
+    margin-bottom: 10px;
+    color: #b6b6b6;
+    font-weight: 400;
+    font-size: 0.7em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.abouteducationcard__container p {
+    margin: 20px 0;
+    font-size: 0.9em;
+    font-weight: 300;
+    word-break: break-all;
+}

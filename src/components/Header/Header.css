@@ -1,0 +1,37 @@
+.headerContainer { 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    color: var(--header-textColor);
+    background-color: var(--header-bgColor);
+}
+
+.headerContent {
+    width: 100%;
+    height: 60px;
+    padding: 0 100px;
+    max-width: 1920px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContent ul {
+    display: flex;
+    gap: 30px;
+}
+
+.headerContent ul li {
+    color: var(--highlights-txtColor);
+}
+
+.headerContent ul li:hover {
+    color: var(--header-hoverTextColor);
+    cursor: pointer;
+}
+
+.headerContent ul li.active {
+    color: var(--header-activeTextColor);
+}

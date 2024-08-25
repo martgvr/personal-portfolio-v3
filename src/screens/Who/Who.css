@@ -1,0 +1,31 @@
+.whoContent {
+    width: 100%;
+    padding: 0 100px;
+    max-width: 1920px;
+
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.whoContent h1 {
+    font-size: 3.4em;
+}
+
+.whoContent p {
+    width: 650px;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+.whoContent__icons {
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.whoContent__icons img {
+    width: 40px;
+    height: 40px;
+}

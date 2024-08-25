@@ -1,0 +1,16 @@
+.aboutstacksmallcard__container {
+    flex: 1;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #4b4141;
+
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutstacksmallcard__container img {
+    width: 30px;
+    height: 30px;
+}

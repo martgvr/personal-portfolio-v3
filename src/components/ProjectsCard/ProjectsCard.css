@@ -1,0 +1,55 @@
+.projectsCard {
+    width: 400px;
+    height: 240px;
+    border-radius: 10px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: 1px solid #505050;
+}
+
+.projectsCard__content {
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(6px);
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
+}
+
+.projectsCard__content:hover {
+    opacity: 1;
+}
+
+.projectsCard__middle {
+    gap: 6px;
+}
+
+.projectsCard__middle p {
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: rgb(122, 122, 122);
+    font-size: 0.8em;
+}
+
+.projectsCard__lower {
+    justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+    .projectsCard {
+        width: 400px;
+        height: 280px;
+        border-radius: 10px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        border: 1px solid rgb(210, 210, 210);
+    }
+}

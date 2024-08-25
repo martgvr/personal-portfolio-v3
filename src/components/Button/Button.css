@@ -1,0 +1,13 @@
+.button__container {
+    padding: 8px 20px;
+    width: fit-content;
+    border-radius: 12px;
+
+    color: white;
+    background-color: var(--highlights-txtColor);
+}
+
+.button__container:hover {
+    cursor: pointer;
+    background-color: black;
+}

@@ -1,0 +1,8 @@
+.projects__cards {
+    gap: 30px;
+    width: fit-content;
+
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
