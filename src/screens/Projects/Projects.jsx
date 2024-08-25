@@ -73,7 +73,7 @@ export default function Projects() {
 			<div className="abouteducation__container flex-column">
 				<div className="abouteducation__header flex-row">
 					<Reveal>
-						<h1>Estudios realizados</h1>
+						<h1>Galería de Proyectos</h1>
 					</Reveal>
 
 					<Reveal delay={0.5}>
